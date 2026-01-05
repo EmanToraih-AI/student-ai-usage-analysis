@@ -68,6 +68,14 @@ other_kaggle_notebooks/
 # Exclude manuscript support files (not for GitHub)
 manuscript_support/
 
+# Exclude push/setup instruction files (not needed in public repo)
+PRE_PUSH_CHECKLIST.md
+PUSH_INSTRUCTIONS.md
+PUSH_TO_GITHUB.md
+QUICK_START_GITHUB.md
+PUSH_NOW.md
+SETUP_GITHUB.md
+
 # Model files
 *.pkl
 *.joblib
