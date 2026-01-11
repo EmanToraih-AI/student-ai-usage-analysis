@@ -11,7 +11,7 @@ This repository contains a comprehensive data analysis and machine learning proj
 
 ## 🎯 Research Objectives
 
-- **Understand Usage Patterns**: Analyze how different student demographics and task types influence AI assistant usage
+- **Understand Usage Patterns**: Analyze how different student characteristics and task types influence AI assistant usage
 - **Predict User Retention**: Build machine learning models to predict whether students will reuse AI tools
 - **Statistical Analysis**: Conduct rigorous hypothesis testing to identify significant associations
 - **Temporal Analysis**: Explore trends and patterns over time
@@ -22,14 +22,12 @@ This repository contains a comprehensive data analysis and machine learning proj
 
 ```
 .
-├── ET_comprehensive_ai_usage_analysis.ipynb  # Main analysis notebook
+├── ET_COMPREHENSIVE_ANALYSIS.ipynb           # Main analysis notebook
 ├── ai_assistant_usage_student_life.csv       # Raw dataset (CSV format)
 ├── README.md                                  # This file
 ├── requirements.txt                           # Python dependencies
 ├── LICENSE                                    # MIT License
-├── .gitignore                                 # Git ignore rules
-└── other_kaggle_notebooks/                    # Reference notebooks (not in repo)
-    └── [28 reference notebooks from other Kaggle users]
+└── .gitignore                                 # Git ignore rules
 ```
 
 ## 🔗 Dataset Information
@@ -43,7 +41,7 @@ This repository contains a comprehensive data analysis and machine learning proj
 
 ### Dataset Description
 The dataset contains 10,000 synthetic records of student interactions with AI assistants, including:
-- **Demographics**: Student level (High School, Undergraduate, Graduate), Discipline
+- **Student Characteristics**: Student level (High School, Undergraduate, Graduate), Discipline
 - **Session Characteristics**: Session length, number of prompts, task type, AI assistance level
 - **Outcomes**: Final outcome, satisfaction rating, reuse intention (UsedAgain)
 

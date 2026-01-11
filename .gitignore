@@ -107,3 +107,36 @@ logs/
 ~$*.xlsx
 ~$*.xls
 ~$*.docx
+
+# Backup notebooks (keep only final version)
+ET_BACKUP_*.ipynb
+*_BACKUP_*.ipynb
+
+# Internal documentation and guides (not for public)
+docs/
+scripts/
+AUTHENTICATION_FIX.md
+NOTEBOOK_GUIDE.md
+WHICH_NOTEBOOK_TO_RUN.md
+NOTEBOOK_IMPROVEMENTS_SUMMARY.md
+PROJECT_STRUCTURE.md
+FINAL_NOTEBOOK_STRATEGY.md
+README_FINAL_NOTEBOOK.md
+ET_COMPREHENSIVE_ANALYSIS_README.md
+QUICK_START.md
+*_README.md
+*_GUIDE.md
+*_STRATEGY.md
+*_SUMMARY.md
+
+# Manuscript drafts (not for GitHub)
+manuscript-5.docx
+*.docx
+publication_materials/
+
+# Cleanup markers
+.cleanup_complete
+
+# Processed datasets (large files, can be regenerated from notebook)
+processed_data_with_all_features.csv
+*_processed_*.csv
